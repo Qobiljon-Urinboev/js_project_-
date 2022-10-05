@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000000;
@@ -44,19 +44,30 @@ textarea:focus {
 .form h2 {
   margin-bottom: 3rem;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
   line-height: 1.5;
 }
+.faded {
+  animation-name: faded;
+  animation-name: 1.5s;
+}
 
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .form h2 span {
   font-size: 2.4rem;
   text-transform: uppercase;
 }
-glaz
-.form_input {
+glaz .form_input {
   height: 5.8rem;
   padding: 0;
   margin-bottom: 2rem;
@@ -115,12 +126,18 @@ glaz
 .button {
   padding: 2.5rem 0rem;
   font-size: 1.7rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   border: 1px solid #ffc600;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffed26),
+    to(#ffb400)
+  );
   background: linear-gradient(180deg, #ffed26 0%, #ffb400 100%);
   -webkit-box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);
   box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);
@@ -139,7 +156,7 @@ glaz
 .section_header h2 {
   font-size: 3rem;
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
@@ -215,7 +232,7 @@ glaz
   background-color: #ffffff;
   font-size: 1.4rem;
   line-height: 1.2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #55a831;
@@ -271,7 +288,7 @@ glaz
 }
 
 .header .working_hours p span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.8rem;
@@ -292,7 +309,7 @@ glaz
 .header .contact_us_wrap a {
   display: block;
   font-size: 2.3rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
@@ -305,7 +322,7 @@ glaz
 
 .header .contact_us_wrap .phone_link {
   font-size: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #0089cd;
@@ -323,7 +340,7 @@ glaz
   /*margin-top: -4rem;*/
   font-size: 5.5rem;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
@@ -350,7 +367,7 @@ glaz
   margin-top: -6rem;
   font-size: 1.3rem;
   line-height: 1.3;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -397,14 +414,26 @@ glaz
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   border-top: 0.5rem solid #0089cd;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7dce9), color-stop(0%, #c7dce9), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #c7dce9 0%, #c7dce9 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c7dce9),
+    color-stop(0%, #c7dce9),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    180deg,
+    #c7dce9 0%,
+    #c7dce9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .glazing_cold h3 {
   margin-bottom: 2.5rem;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -418,14 +447,26 @@ glaz
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   border-top: 0.5rem solid #ffb903;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7eac9), color-stop(0%, #f7eac9), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #f7eac9 0%, #f7eac9 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f7eac9),
+    color-stop(0%, #f7eac9),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    180deg,
+    #f7eac9 0%,
+    #f7eac9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .glazing_warm h3 {
   margin-bottom: 2.5rem;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -443,7 +484,7 @@ glaz
 }
 
 .glazing ul li:before {
-  content: '';
+  content: "";
   display: inline-block;
   margin-right: 1.7rem;
   width: 2.5rem;
@@ -463,14 +504,14 @@ glaz
   vertical-align: middle;
   font-size: 2rem;
   line-height: 1.7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .glazing_price p span {
   font-size: 1.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -538,8 +579,20 @@ glaz
   border-top: 1rem solid #0089cd;
   height: 8rem;
   padding: 2rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), color-stop(0%, #ebebeb), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ebebeb),
+    color-stop(0%, #ebebeb),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    180deg,
+    #ebebeb 0%,
+    #ebebeb 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .decoration_content {
@@ -559,7 +612,7 @@ glaz
 
 .decoration_content_material p {
   font-size: 1.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #0089cd;
@@ -568,7 +621,7 @@ glaz
 .decoration_content_material p span {
   display: block;
   font-size: 1.2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000000;
@@ -634,7 +687,8 @@ glaz
 }
 
 .guarantees_block:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -669,7 +723,7 @@ glaz
 .sale_title {
   margin-bottom: 8rem;
   font-size: 4.8rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -682,9 +736,8 @@ glaz
   line-height: 1.6;
 }
 
-
 /* Timer */
- .timer1 {
+.timer1 {
   padding: 10px;
   border: 1px solid grey;
   background-color: white;
@@ -697,34 +750,26 @@ glaz
 
 .container1 {
   display: inline-block;
-
 }
 .numbers1 {
   display: block;
-  float: left;  
+  float: left;
   color: white;
   font-size: 40px;
   margin-right: 10px;
 }
 
-.timer1 span{
+.timer1 span {
   margin-right: 2px;
   background-color: #575757;
   border-radius: 7px;
   padding: 4px;
 }
-.description1{
+.description1 {
   font-size: 18px;
   text-align: center;
   color: black;
 }
-
-
-
-
-
-
-
 
 /*Contacts*/
 .contacts {
@@ -749,7 +794,7 @@ glaz
 }
 
 .contacts_info p span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -814,7 +859,7 @@ glaz
 
 .footer .contacts .phone {
   font-size: 1.8rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
@@ -859,7 +904,6 @@ glaz
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
-
 }
 
 .popup_content,
@@ -912,7 +956,7 @@ glaz
 .popup_calc_content h2 {
   margin-bottom: 3rem;
   font-size: 3rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
@@ -937,11 +981,11 @@ glaz
   display: inline-block;
 }
 
-.do_image_more img{
-    width: 110px;
-    height: 70px;
-    cursor: pointer;
-  }
+.do_image_more img {
+  width: 110px;
+  height: 70px;
+  cursor: pointer;
+}
 
 .popup_calc_close {
   position: absolute;
@@ -1005,7 +1049,7 @@ glaz
 .popup_calc_profile_content h2 {
   margin-bottom: 3rem;
   font-size: 3rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #333333;
@@ -1039,7 +1083,7 @@ glaz
   vertical-align: middle;
 }
 
-.popup_calc_profile_content .checkbox:checked+.checkbox-custom::before {
+.popup_calc_profile_content .checkbox:checked + .checkbox-custom::before {
   content: "";
   display: block;
   position: absolute;
@@ -1117,7 +1161,7 @@ glaz
   }
 
   .header .working_hours p span {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.6rem;
@@ -1157,7 +1201,6 @@ glaz
   .payment_img img {
     margin-right: 1rem;
   }
-
 }
 
 @media (max-width: 991px) {
@@ -1197,7 +1240,7 @@ glaz
 
   .header .working_hours p span {
     display: block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.6rem;
@@ -1210,7 +1253,6 @@ glaz
   .header .contact_us_wrap a {
     font-size: 1.4rem;
   }
-
 
   .header .contact_us_wrap .phone_link {
     font-size: 1.15rem;
@@ -1452,7 +1494,7 @@ glaz
 
   .footer .contacts .phone {
     font-size: 1.8rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: #333333;
@@ -1547,8 +1589,6 @@ glaz
   .section_header_sub {
     margin-top: 1rem;
   }
-
-
 
   .header .working_hours p {
     font-size: 1.2rem;
